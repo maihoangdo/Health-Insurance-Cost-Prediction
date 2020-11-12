@@ -4,9 +4,9 @@ Introduction
 In the health insurance industry, data analytic is an important process that helps insurers to identify and predict the cost of health insurance which prevents risk and cost for the companies. The Insurance data set contains 1338 observations and 7 variables which include age, sex, children, smoker, region, and expenses.
 
 The description of the data set is as below:
-Age: Age of primary beneficiary
-Sex: Primary beneficiary’s gender
-BMI: Body mass index (providing an understanding of the body, weights that are relatively high or low relative to height)
+- Age: Age of primary beneficiary
+- Sex: Primary beneficiary’s gender
+- BMI: Body mass index (providing an understanding of the body, weights that are relatively high or low relative to height)
 Children: Number of children covered by health insurance / Number of dependents
 Smoker: Smoking (yes, no)
 Region: Beneficiary’s residential area in the US (northeast, southeast, southwest, northwest)
