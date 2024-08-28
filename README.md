@@ -1,20 +1,24 @@
-# Health-Insurance-Cost-Prediction
-Introduction
+# Health Insurance Cost Prediction
+## Introduction
+In the health insurance industry, data analytics plays a crucial role in identifying and predicting the cost of insurance, helping companies mitigate risks and manage expenses effectively. This project utilizes a dataset containing 1338 observations and 7 variables to predict individual medical costs billed by health insurance.
 
-In the health insurance industry, data analytic is an important process that helps insurers to identify and predict the cost of health insurance which prevents risk and cost for the companies. The Insurance data set contains 1338 observations and 7 variables which include age, sex, children, smoker, region, and expenses.
+## Dataset Description
+The dataset includes the following variables:
 
-The description of the data set is as below:
-- Age: Age of primary beneficiary
-- Sex: Primary beneficiary’s gender
-- BMI: Body mass index (providing an understanding of the body, weights that are relatively high or low relative to height)
-- Children: Number of children covered by health insurance / Number of dependents
-- Smoker: Smoking (yes, no)
-- Region: Beneficiary’s residential area in the US (northeast, southeast, southwest, northwest)
-- Expenses: Individual medical costs billed by health insurance.
+- Age: Age of the primary beneficiary.
+- Sex: Gender of the primary beneficiary.
+- BMI: Body mass index, which provides insights into whether a person’s weight is high or low relative to their height.
+- Children: Number of dependents covered by the health insurance plan.
+- Smoker: Whether the beneficiary is a smoker (yes or no).
+- Region: The beneficiary's residential area in the U.S. (northeast, southeast, southwest, northwest).
+- Expenses: Individual medical costs billed by the insurance company.
+## Project Objective
+For health insurance companies to remain profitable, they must accurately forecast the medical expenses of their insured population. By analyzing patient data, we aim to estimate the average medical care costs for different population segments. This project focuses on exploring the relationships between features such as age, smoking status, BMI, and medical costs, which are crucial for predicting health insurance expenses.
 
-In order for a health insurance company to make money, it needs to collect more in yearly premiums than it spends on medical care to its beneficiaries. As a result, insurers invest a great deal of time and money in developing models that accurately forecast medical expenses for the insured population. The goal of this analysis is to use patient data to estimate the average medical care expenses for such population segments. It is important to give some thought to how these variables may be related to billed medical expenses. For example, we might expect that older people and smokers are at higher risk of large medical expenses. Unlike many other machine learning methods, in regression analysis, the relationships among the features are typically specified by the user rather than being detected automatically. We’ll explore some of these potential relationships in the next section.
+## Methodology
+Using regression analysis, we model the relationships between the predictor variables (e.g., age, smoker status, BMI) and the target variable (medical expenses). Unlike other machine learning methods, regression analysis requires users to specify the relationships among features rather than having them detected automatically by the model. The analysis investigates potential relationships, such as whether older individuals and smokers have higher medical costs.
 
-References:
+## References:
 
 - Dataset from Kaggle,
 https://www.kaggle.com/noordeen/insurance-premium-prediction
